@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20%;
+  flex-direction: column;
+}
+
+.gradient-button {
+  background: linear-gradient(45deg, #00d5ff, #0015ff);
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+/* .gradient-button:hover {
+  background: linear-gradient(45deg, #c70a00 40%, #c7d500);
+} */
+
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  color: #fcfcfc;
+}
+.current-color {
+  background-color: #544e4e;
+  border-radius: 20px;
+  padding: 1rem 3rem;
+}
